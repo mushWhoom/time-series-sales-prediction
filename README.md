@@ -15,7 +15,7 @@ The dataset consists of e-commerce transaction history with the following key at
 *   `Order Date`: The date and time of the transaction (The primary feature for Time Series analysis).
 *   `Purchase Address`: The physical address where the order was placed.
 
-## 🛠️ Methodology & Workflow
+## Methodology & Workflow
 1.  **Data Preprocessing:** Merging multiple CSV files, cleaning the dataset by dropping null (NaN) values and duplicated headers, and converting the string date column into proper `datetime` format.
 2.  **Exploratory Data Analysis (EDA):** Utilizing Seasonal Decomposition to break down the time series data into its Trend, Seasonality, and Residual (Noise) components.
 3.  **Stationarity Testing:** Applying the Augmented Dickey-Fuller (ADF) Test to check if the data remains stable over time, a prerequisite for statistical modeling.
